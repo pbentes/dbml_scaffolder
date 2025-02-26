@@ -1,0 +1,4 @@
+Table users {
+  id integer [primary key]
+  username varchar(50)
+}
