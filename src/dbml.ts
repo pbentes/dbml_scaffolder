@@ -1,5 +1,5 @@
 import { Parser } from "npm:@dbml/core";
-import { DSFieldType, DSField, DSTable } from "../DSTypes.ts";
+import { DSFieldType, DSField, DSTable } from "./dstypes.ts";
 
 export function ParseDbml(filepath: string): DSTable[] {
     const dbml: string = Deno.readTextFileSync(filepath);
